@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Martel Sans", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    /* background-size: cover; */
+    /* object-fit: cover; */
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 76vw;
+    padding-top: 15px;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 77px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    gap: 10px;
+    padding: 0px 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.sepration {
+    background-color: rgb(35, 35, 35);
+    height: 7px;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+    /* height: 0.5rem; */
+    /* position: absolute;
+    bottom: -0.5rem; */
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 0.25rem;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 9px 24px;
+    font-size: 20px;
+    border-radius: 0.25rem;
+    /* font-size: 1.5rem; */
+    font-weight: 500;
+    font-weight: bold;
+
+}
+
+.btn-red-sn {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 0.25rem;
+    margin-left: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.main input {
+    padding: 15px 101px 10px 14px;
+    /* padding: 15px 200px 17px 1px; */
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+input::placeholder {
+    font-size: 17px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    /* padding: 0px 0px 25px; */
+    padding: 3.5rem 0;
+}
+
+.SecImg {
+    position: relative;
+}
+
+.SecImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.SecImg video {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    top: 21%;
+    left: 13%;
+    z-index: -1;
+}
+
+section.first div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.faqhead {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faq {
+    color: white;
+    text-align: center;
+    padding: 58px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    width: 70vw;
+    margin: 34px auto 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 250ms cubic-bezier(0.9, 0, 0.51, 1);
+    cursor: pointer;
+}
+
+.next {
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    width: 70vw;
+    margin: 8px auto 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 250ms cubic-bezier(0.9, 0, 0.51, 1);
+}
+
+.faqbox:hover {
+    background-color: rgba(65, 65, 65, 1);
+}
+
+footer {
+    max-width: 60vw;
+    margin: 5rem auto;
+    padding: 0px 48px;
+}
+
+footer .Questions {
+    font-size: 14px;
+    color: #afafaf;
+    padding: 35px 0px;
+}
+
+footer .Questions a {
+    color: #afafaf;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    gap: 13px;
+}
+
+.footer-items a {
+    font-size: 14px;
+    color: #afafaf;
+}
+/* media query */
+
+@media screen and (max-width: 1300px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .SecImg img {
+        width: 305px;
+        position: relative;
+        z-index: 10;
+        margin: -40px;
+    }
+
+    .SecImg video {
+        width: 305px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero h3 {
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faqhead {
+        text-align: center;
+        font-size: 32px;
+        margin-top: 30px;
+    }
+
+    .faq {
+        display: contents;
+    }
+
+    .last {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        max-width: 90vw;
+        padding: 75px 0;
+    }
+
+    .footer-item {
+        align-items: center;
+    }
+
+    .first span h2 {
+        font-size: 30px;
+    }
+
+    .faqbox {
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    footer {
+        margin: 0px auto;
+    }
+
+    footer .Questions {
+        padding: 0px 0px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+}
+
